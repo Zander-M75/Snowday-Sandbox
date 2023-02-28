@@ -22,6 +22,7 @@ header {
 
 }
 
+
 header h2 {
     font-size: 2em;
     margin: 0;
@@ -91,7 +92,7 @@ header a:hover {
 
 #random-title {
     font-size: 2em;
-    margin: 35px 0;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
 }
@@ -100,7 +101,13 @@ header a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 150px;
+    padding: 50px 150px;
+    margin-bottom: 25px;
+}
+
+.line-up img {
+    border: #0672ff 2px solid;
+    border-radius: 20%;
 }
 
 .line-up p {
@@ -111,4 +118,27 @@ header a:hover {
     text-align: center;
     width: 150px;
     margin: 0;
+}
+
+.quote {
+    background-color: #e5e5e5;
+    color: white;
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* make quote text large black and italicized */
+
+#quote-text {
+    font-size: 1.5em;
+    font-style: italic;
+    color: rgb(54, 54, 54);
+}
+
+#quote-author {
+    float: right;
+    color: rgb(54, 54, 54);
+    font-weight: bolder;
 }
