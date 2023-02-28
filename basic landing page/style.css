@@ -74,7 +74,7 @@ header a:hover {
     padding: 0 0 0 50px;
 }
 
-#section-btn {
+.section-btn {
     background-color: #0672ff;
     color: white;
     border: none;
@@ -141,4 +141,34 @@ header a:hover {
     float: right;
     color: rgb(54, 54, 54);
     font-weight: bolder;
+}
+
+.action {
+
+    background-color: #206ae2;
+    color: white;
+    margin: 100px 150px;
+    border: #2E4263 1px solid;
+    border-radius: 10px;
+    padding: 15px 35px;
+}
+
+.right {
+
+    float: right;
+}
+
+
+
+/* Footer Style */
+
+footer {
+    background-color: #2E4263;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 200px;
 }
