@@ -1,7 +1,50 @@
 /* background-color: #2E4263; */
 
+body {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: #2E4263;
     color: white;
-    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 200px;
+
+}
+
+header h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+header li {
+    display: inline-block;
+    margin: 0 50px;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+
+}
+
+header a:hover {
+    color: #06eaff;
 }
