@@ -153,9 +153,18 @@ header a:hover {
     padding: 15px 35px;
 }
 
-.right {
-
-    float: right;
+#action-btn {
+    background-color: #0672ff;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: white 3px solid;
 }
 
 
